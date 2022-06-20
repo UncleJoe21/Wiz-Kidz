@@ -1,0 +1,345 @@
+#cloudTop{
+    position: absolute;
+    width: 80%;
+    margin-left: 0;
+    left: -1%;
+    top: -1%;
+    /*top: -100%;*/
+    /*left: -100%;*/
+    z-index: -5;
+}
+
+#cloudSide{
+    position: absolute;
+    width: 30%;
+    left: 70%;
+    top: 400px;
+    z-index: -5;
+}
+#cloudBottom{
+    position: absolute;
+    width: 40%;
+    left:-6%;
+    bottom: -5%;
+    z-index: -5;
+}
+#topLogo{
+    width: 15%;
+    margin-left: 4%;
+    margin-top: 1%;
+    float: left;
+}
+#mainTitle{
+    margin-top: 200px;
+}
+#examplePic{
+    position: relative;
+    width: 100%;
+    padding-bottom: 200px;
+}
+.clear{
+    clear: both;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.blue{
+    color:#0175BA;
+}
+.classSelectImg{
+    width: 400px;
+    max-height: 326px;
+    transform: translate(-20%,0);
+}
+.workshops .classSelectImg{
+    transform: translate(0,0);
+    width: 100%;
+    /* max-width: 400px; */
+    margin: auto;
+}
+.textLeft{
+    text-align: left;
+    margin-left: 0;
+}
+.cont-m{
+    width: 60%;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    color: #0175BA;
+}
+.classSelect{
+    height: 407px;
+}
+.cont-s{
+    width: 33.3333%;
+    text-align: center;
+    color: #0175BA;
+
+}
+.cont-xs{
+    width: 25%;
+    text-align: center;
+    color: #0175BA;
+}
+.cont-l{
+    width: 80%;
+    margin: auto;
+    max-width: 1536px;
+    margin-top: 100px;
+    text-align: center;
+    color: #0175BA;
+}
+.cont-xl{
+    width: 90%;
+    max-width: 1728px;
+    margin: auto;
+    color: #0175BA;
+}
+.workshops{
+    height: 550px;
+    position: relative;
+}
+.extraTop{
+    margin-top: 650px;
+}
+.pf{
+    width: 70%;
+    margin: auto;
+}
+
+button{
+    background-color: #B540FF;
+    border-radius: 25px;
+    color: white;
+    font-family:'skaterGirlsRock';
+    font-size: 2em;
+    width: 200px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 10px;
+    border: none;
+}
+button:hover{
+    background-color: #9d00ff;
+}
+button:active{
+    background-color: #7800c2;
+}
+header{
+    width: 100%;
+    max-height: 100px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding-top: 200px;
+}
+footer .cont-xs{
+    width: 200px;
+}
+.navText{
+    display: inline;
+    float: left;
+    margin-left: 10%;
+    margin-top: 80px;
+    font-size: 2em;
+}
+footer .navText{
+    margin-top: 40px;
+}
+@font-face { 
+    font-family: 'skaterGirlsRock'; 
+    src: url('../fonts/skater-girls-rock.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'madaRegular';
+    src: url(../fonts/Mada-Regular.ttf);
+}
+.subtitle{
+    margin-top: -70px;
+}
+.workshops button{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+h1{
+    
+    font-size: 7em;
+    font-family: 'skaterGirlsRock';
+}
+h2{
+    font-family: 'skaterGirlsRock';
+    
+    font-size: 4.8em;
+}
+h3{
+    
+    font-family: 'skaterGirlsRock';
+    font-size: 3.8em;
+}
+h4{
+    font-family: 'skaterGirlsRock';
+    font-size: 2em;
+    margin-bottom: 0;
+}
+h5{
+    font-family: 'madaRegular';
+    font-size: 2.2em;
+    
+}
+h6{
+    font-family: 'madaRegular';
+    font-size: 0.8em;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+p{
+    font-family: 'madaRegular';
+    font-size: 1em;
+    width: 300px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    
+    font-family: 'skaterGirlsRock';
+}
+li{
+    list-style-type: none;
+    
+}
+ul{
+    margin-left: 40%;
+}
+nav{
+    width: 80%;
+    height: 150px;
+}
+
+nav.img{
+    margin-right: 100px;
+}
+@media only screen and (max-width: 1260px){
+    ul{
+        margin-left: 30%;
+    }
+    .navText{
+        font-size: 1.4em;
+        margin-left: 10%;
+        margin-top: 45px;
+    }
+    .classSelectImg{
+        width: 300px;
+        max-height: 244.5px;
+    }
+    h1{
+        font-size: 5.5em;
+    }
+    h2{
+        font-size: 4em;
+    }
+    h3{
+        font-size: 3em;
+    }
+    h4{
+        font-size: 1.5em;
+    }
+    h5{
+        font-size: 1.7em;
+    }
+    p{
+        width: 200px
+    }
+    .cont-s{
+        height: 450px;
+    }
+    .classSelect{
+        height: 352px;
+    }
+    #examplePic{
+        padding-bottom: 150px;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    ul{
+        margin-left: 25%;
+    }
+    .classSelectImg{
+        width: 200px;
+        max-height: 163px;
+    }
+    .navText{
+        font-size: 0.8em;
+        margin-left: 10%;
+        margin-top: 24px;
+    }
+    h1{
+        font-size: 4.5em;
+    }
+    h2{
+        font-size:3.4em;
+    }
+    h3{
+        font-size: 2.2em;
+    }
+    h4{
+        font-size: 1em;
+    }
+    h5{
+        font-size: 1.2em;
+    }
+    h6{
+        font-size: 0.5em;
+    }
+    p{
+        width: 145px;
+        font-size: 0.7em;
+    }
+   
+    button{
+        width: 120px;
+        font-size: 1.5em;
+    }
+    .cont-s{
+        height: 300px;
+    }
+    .cont-xs{
+        width: 50%;
+        height: 380px;
+    }
+    footer .cont-xs{
+        height: 90px;
+        width: 130px;
+    }
+    .subtitle{
+        margin-top: -60px;
+    }
+    .classSelect{
+        height: 307px;
+    }
+    .extraTop{
+        margin-top: 400px;
+    }
+    #examplePic{
+        padding-bottom: 0px;
+    }
+    .cont-xs p{
+        font-size: 0.9em;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 648px){
+    .cont-xs{
+        height: 300px;
+    }
+}
